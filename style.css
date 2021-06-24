@@ -1,0 +1,34 @@
+body{
+    background-image: url("background.jpg");
+
+
+}
+
+h1{
+background-color: aqua;margin-top: 0px;padding: 10px;box-shadow: 15px 15px 20px navy;
+font-family: 'Cochin';
+
+}
+
+#snap{
+    font-size: 18px;background-color: darkblue;color: white;padding: 5px;width: 250px;border-color: darkblue; border-radius: 30px;
+font-family: 'Trebuchet MS';
+}
+
+#snap:hover{
+transition-duration: 0.8s;background-color: white;color: darkblue;
+
+}
+
+canvas{
+animation-name: canvas_1;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+margin-top: 80px;
+}
+
+@keyframes canvas_1{
+from{box-shadow:3px 3px 30px darkmagenta;}
+to{box-shadow: 3px 3px 30px rgb(211, 122, 255);}
+
+}
