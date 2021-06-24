@@ -36,3 +36,8 @@ image (v1, 0, 0, 600, 600);
 image (clown, nose_x, nose_y, 50,50);
 }
 
+
+function take_pic(){
+save ("myClownNose.png");
+
+}
